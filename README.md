@@ -25,16 +25,14 @@ Cub3D is a 42 Network project aimed at introducing the fundamentals of graphic c
 ```bash
 git clone https://github.com/turman17/Cub3d.git Cub3D
 cd Cub3Dbash
-git clone https://github.com/turman17/Cub3d.git Cub3D
-cd Cub3D
 make
 ```
 
 To run the game, execute:
 
-\`\`\`bash
+```bash
 ./cub3D maps/map1.cub
-\`\`\`
+```
 
 ## Map Configuration
 
@@ -52,8 +50,8 @@ The map configuration file is a \`.cub\` file that defines the environment in wh
 
 ## Contributor
 
-@dlbltv
-
+- [@dlbltv](https://github.com/dlbltv)
+  
 ## Acknowledgments
 
 This project is inspired by the historic Wolfenstein 3D game and aims at learning the basics of ray-casting. Special thanks to the 42 community and its staff for the support and guidance.
