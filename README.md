@@ -36,8 +36,6 @@ To run the game, execute:
 ./cub3D maps/map1.cub
 \`\`\`
 
-Replace `[map-file]` with the path to a valid map file. A map file should define the maze layout, the player's starting position and orientation, and the textures used for walls, floor, and ceiling.
-
 ## Map Configuration
 
 The map configuration file is a \`.cub\` file that defines the environment in which the game will run. It includes:
@@ -45,21 +43,6 @@ The map configuration file is a \`.cub\` file that defines the environment in wh
 - Map layout with \`1\` representing walls and \`0\` representing free spaces.
 - The player's starting position and orientation indicated by \`N\`, \`S\`, \`E\`, or \`W\`.
 - Paths to texture files for walls, floor, and ceiling.
-
-Example of a map configuration section:
-
-\`\`\`
-111111
-100101
-102001 N
-111111
-NO ./path/to/north_texture.xpm
-SO ./path/to/south_texture.xpm
-WE ./path/to/west_texture.xpm
-EA ./path/to/east_texture.xpm
-F 220,100,0
-C 225,30,0
-\`\`\`
 
 ## Controls
 
