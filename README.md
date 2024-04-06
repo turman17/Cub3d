@@ -22,13 +22,13 @@ Cub3D is a 42 Network project aimed at introducing the fundamentals of graphic c
 
 ## Installation
 
-\`\`\`bash
+```bash
+git clone https://github.com/turman17/Cub3d.git Cub3D
+cd Cub3Dbash
 git clone https://github.com/turman17/Cub3d.git Cub3D
 cd Cub3D
 make
-\`\`\`
-
-## Usage
+```
 
 To run the game, execute:
 
